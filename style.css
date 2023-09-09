@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aca8a8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.816);
+}
+
+.header {
+    background-color: #0084ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.active-now {
+    font-size: 12px;
+    margin-right: 100px;
+}
+
+.messages {
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.message .avatar {
+    margin-right: 10px;
+}
+
+.message .content {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+#leo, #Ana{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+#vc{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.user-2 {
+    background-color: #0694f3;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
+}
+#bottom{
+    width: 350px;
+    margin-left: 20px;
+}
+#Ana{
+    float: right;
+}
+p{
+    float: right;
+}
